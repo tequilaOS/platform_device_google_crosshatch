@@ -7,6 +7,9 @@
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-tequila
 
+PRODUCT_PACKAGES += \
+    NowPlayingOverlay
+
 # AiAi Config
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/allowlist_com.google.android.as.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/allowlist_com.google.android.as.xml
