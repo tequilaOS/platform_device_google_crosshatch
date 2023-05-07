@@ -19,6 +19,9 @@ TARGET_NEEDS_DTBOIMAGE := true
 # Manifests
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += vendor/tequila/config/device_framework_matrix.xml
 
+# SurfaceFlinger
+TARGET_USE_AOSP_SURFACEFLINGER := true
+
 # Partitions
 AB_OTA_PARTITIONS += \
     vendor
