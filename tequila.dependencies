@@ -4,8 +4,10 @@
     "target_path": "kernel/google/bluecross"
   },
   {
-    "repository": "android_packages_apps_ElmyraService",
-    "target_path": "packages/apps/ElmyraService"
+    "repository": "LineageOS/android_packages_apps_ElmyraService",
+    "target_path": "packages/apps/ElmyraService",
+    "remote": "github",
+    "branch": "lineage-20.0"
   },
    {
      "repository"  : "ReallySnow/packages_apps_GoogleCamera",
