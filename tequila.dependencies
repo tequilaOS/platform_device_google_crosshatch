@@ -1,7 +1,33 @@
 [
   {
-    "repository": "android_kernel_google_msm-4.9",
-    "target_path": "kernel/google/bluecross"
+    "repository": "ArixElo/device_google_bluecross",
+    "target_path": "kernel/google/bluecross",
+    "remote": "github",
+    "branch": "tortilla"
+  },
+  {
+    "repository": "ArixElo/kernel_google_bluecross",
+    "target_path": "kernel/google/bluecross",
+    "remote": "github",
+    "branch": "tortilla-los"
+  },
+  {
+    "repository": "Google-Pixel-3-XL/vendor_google_blueline",
+    "target_path": "vendor/google/blueline",
+    "remote": "github",
+    "branch": "thirteen"
+  },
+   {
+    "repository": "Google-Pixel-3-XL/vendor_google_crosshatch",
+    "target_path": "vendor/google/crosshatch",
+    "remote": "github",
+    "branch": "thirteen"
+  },
+    {
+    "repository": "LineageOS/android_prebuilts_clang_kernel_linux-x86_clang-r416183b",
+    "target_path": "prebuilts/clang/kernel/linux-x86/clang-r416183b",
+    "remote": "github",
+    "branch": "lineage-20.0"
   },
   {
     "repository": "LineageOS/android_packages_apps_ElmyraService",
@@ -10,9 +36,9 @@
     "branch": "lineage-20.0"
   },
    {
-     "repository"  : "ReallySnow/packages_apps_GoogleCamera",
-     "target_path" : "packages/apps/GoogleCamera",
-     "remote"      : "gitlab",
-     "branch"      : "thirteen"
+     "repository": "ReallySnow/packages_apps_GoogleCamera",
+     "target_path": "packages/apps/GoogleCamera",
+     "remote": "gitlab",
+     "branch": "thirteen"
    }
 ]
